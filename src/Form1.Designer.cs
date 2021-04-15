@@ -58,7 +58,7 @@ namespace GIBDD
             // CarNumber
             // 
             this.CarNumber.Location = new System.Drawing.Point(40, 53);
-            this.CarNumber.MaxLength = 6;
+            this.CarNumber.MaxLength = 9;
             this.CarNumber.Name = "CarNumber";
             this.CarNumber.PlaceholderText = "Номер машины*";
             this.CarNumber.Size = new System.Drawing.Size(142, 23);
@@ -118,7 +118,7 @@ namespace GIBDD
             // 
             // TimeNarsuh
             // 
-            this.TimeNarsuh.CustomFormat = "hh:mm";
+            this.TimeNarsuh.CustomFormat = "HH:mm";
             this.TimeNarsuh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.TimeNarsuh.Location = new System.Drawing.Point(192, 98);
             this.TimeNarsuh.Name = "TimeNarsuh";

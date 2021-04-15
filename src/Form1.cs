@@ -15,7 +15,7 @@ namespace GIBDD
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            if (CarNumber.Text != String.Empty && FIO.Text != String.Empty && TypeChooser.SelectedItem != null)
+            if (CarNumber.Text != String.Empty && FIO.Text != String.Empty && TypeChooser.SelectedItem != null && Summa.Text != String.Empty)
             {
                 MySqlConnection conn = new MySqlConnection(connStr);
                 try
